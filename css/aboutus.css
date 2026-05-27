@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--main-font-color);
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--main-font-family);
+  background-color: #100506;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+}
+
+.menu ul li a {
+  color: var(--accent-font-color);
+  font-family: var(--menu-font-family);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--menu-and-buttons-font-size);
+  transition: 0.3s;
+}
+
+.menu ul li a:hover {
+  color: var(--menu-link-hover);
+}
+
+
+.block__heading {
+  font-family: var(--page-heading-font);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--heading-font-size);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 45px;
+}
+
+.opposite {
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.info-row__image:first-child {
+  width: 458px;
+}
+
+.info-row__text {
+  font-size: var(--menu-and-buttons-font-size);
+}
+
+.info-row__text:first-of-type {
+  max-width: 676px;
+}
+
+
+.opposite .info-row__text {
+  max-width: 664px;
+}
+
+.last .info-row__text {
+  max-width: 595px;
+  text-align: center;
+}
+
+.philosophy__block {
+  margin-top: 46px;
+  margin-bottom: 40px;
+}
+
+.block__subtitle {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--menu-and-buttons-font-size);
+  text-align: center;
+  max-width: 966px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.values__title {
+  font-weight: var(--bold-font-weight);
+  font-size: var(--subtitle-font-size);
+  text-align: center;
+}
+
+.values-list__row {
+  display: flex;
+  gap: 160px;
+  justify-content: center;
+  margin-top: 37px;
+}
+
+.values-list__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  align-items: center;
+
+}
+
+.value-item__title {
+  text-align: center;
+  font-size: var(--second-min-font-size);
+}
+
+.value-item__text {
+  font-size: var(--second-min-font-size);
+  text-align: center;
+  max-width: 330px;
+}
+
+.value-item__image {
+  background-image: url('../IMG/bck-value.png');
+  background-position: center;
+  max-width: 261px;
+  padding: 40px;
+  margin-bottom: 15px;
+}
+
+
+.process-stages__list {
+  display: grid;
+  grid-template-columns: 150px 1fr 120px 1fr 150px;
+  grid-template-rows: 1fr 60px 1fr 60px 1fr 60px;
+}
+
+.process-stage__item {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.process-stage__title {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.process-stage__text {
+  font-size: 28px;
+}
+
+.process-stage__image {
+  width: 400px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.process-stage__item:first-of-type {
+  grid-column: 2;
+}
+
+.process-stage__item:nth-of-type(2) {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.process-stage__item:nth-of-type(3) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.process-stage__item:nth-of-type(4) {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.process-stage__item:nth-of-type(5) {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.process-stage__item:nth-of-type(6) {
+  grid-column: 4;
+  grid-row: 5;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 147px;
+  padding: 0 22px;
+  background-color: var(--dark-red-color);
+}
+
+.company-info {
+  max-width: 280px;
+  color: var(--accent-font-color);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--min-font-size);
+}
+
+.footer-menu ul li a {
+  font-family: var(--main-font-family);
+  font-size: var(--second-min-font-size);
+}
+
+.to-top {
+  color: var(--accent-font-color);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--second-min-font-size);
+  text-decoration: none;
+}
+
+.to-top:hover {
+  color: #989898;
+}

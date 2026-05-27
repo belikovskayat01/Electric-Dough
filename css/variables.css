@@ -1,0 +1,25 @@
+:root {
+  --menu-font-family: "Ubuntu", serif;
+  --page-heading-font:"Ubuntu",serif;
+  --main-font-family: "Inter", sans-serif;
+  --accent-font-family:"AbhayaLibre", sans-serif;
+  --regular-font-weight:400;
+  --bold-font-weight:700;
+  --accent-font-color:#F0E7D5;
+  --dark-brown-color:#4B3935;
+  --dark-red-color: #53161D;
+  --main-font-color:white;
+  --button-hover-color:#8b3735;
+  --special-button-hover: 0 5px 20px rgba(255, 107, 107, 0.4);
+  --menu-link-hover:#ff6b6b;
+  --user-action-card-bcgr:#1E1E1E;
+  --min-font-size:16px;
+  --second-min-font-size:20px;
+  --menu-and-buttons-font-size:24px;
+  --heading-font-size:48px;
+  --subtitle-font-size:32px;
+  --second-max-font-size:64px;
+  --max-font-size:128px;
+  --main-border-radius:25px;
+  --form-border-radius:20px;
+}
